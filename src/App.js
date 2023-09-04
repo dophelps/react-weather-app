@@ -5,7 +5,11 @@ function App() {
     <div className="App">
       <h1> Weather App</h1>
       <footer>
-        This project was coded by <a href="">Dani Phelps</a> and it is
+        This project was coded by{" "}
+        <a href="" target="blank">
+          Dani Phelps
+        </a>{" "}
+        and it is
         <a
           href="https://github.com/dophelps/react-weather-app"
           target="blank"
