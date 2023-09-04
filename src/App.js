@@ -1,21 +1,28 @@
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1> Weather App</h1>
-      <footer>
-        This project was coded by{" "}
-        <a href="" target="blank">
-          Dani Phelps
-        </a>{" "}
-        and it is
-        <a
-          href="https://github.com/dophelps/react-weather-app"
-          target="blank"
-        ></a>
-        opened-source on GitHub
-      </footer>
+      <div className="container">
+        <Weather defaultCity="New York" />
+        <h1> Weather App</h1>
+        <footer>
+          This project was coded by Dani Phelps and it is
+          <a
+            href="https://github.com/dophelps/react-weather-app"
+            target="blank"
+          >
+            {" "}
+            opened-source on Github
+          </a>
+          and
+          <a href="https://playful-fenglisu-492f6a.netlify.app/" target="blank">
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
