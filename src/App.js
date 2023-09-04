@@ -14,7 +14,7 @@ function App() {
           href="https://github.com/dophelps/react-weather-app"
           target="blank"
         ></a>
-        opened-source on GitHub.
+        opened-source on GitHub
       </footer>
     </div>
   );
